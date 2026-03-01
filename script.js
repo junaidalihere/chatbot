@@ -27,7 +27,7 @@ button.addEventListener("click", async function () {
   chatBox.scrollTop = chatBox.scrollHeight;
 
   const KEY =
-    "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 "; // ⚠️ replace with new key
+    "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"; // ⚠️ replace with new key
 
   try {
     const res = await fetch("https://openrouter.ai/api/v1/chat/completions", {
